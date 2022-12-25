@@ -1,0 +1,471 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	
+	font-family: Gotham Pro Regular;
+    }
+
+a:hover {
+	vertical-align: middle;
+    color: #a0789f;
+}
+a:active {
+	vertical-align: middle;
+    color: #fcfcfb;
+}
+.cherdak {
+	width: 1620px;
+	height: 80px;
+    background-color: #5b1454;
+    }
+
+ul.menu {
+	float: right;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	left: 400px;
+
+    }
+ul.menu li {
+	font-size: 20px;  
+	color: #fcfcfb;
+	float: left;
+	text-decoration: none;
+	padding: 0 0 0 35px;
+	list-style: none;
+	margin: 20px 0 20px 0px;
+
+    }
+ul.menu > li > a {
+	font: normal, treduchet ms, sens-serif;
+	display: block;
+	height: 20px;
+	padding: 6px 0px 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	}
+ul.menu li.selected a {
+	color: #fff;
+}
+ul.menu li a:hover {
+     color: #9e769d;
+}
+.glavnay{
+	background:  url(Angel.jpg)no-repeat center center;
+	width:  1620px;
+	height: 800px;
+	background-size: cover;
+	
+}
+.glavnay h2 {
+	font-family:Monplesir script Regular;
+	font-weight:lighter;
+	font-size: 60px;
+	color: #fff;
+	padding-top: 450px;
+	padding-left: 200px;
+}
+.glavnay button {
+	font-family: Gotham Pro Regular;
+	color: #5b1454;
+	padding: 0 48px;
+	text-transform: uppercase;
+	font-size: 20px;
+	border-radius: 8px;
+	box-sizing:border-box;
+	height: 58px;
+	cursor: pointer;
+	outline: none;
+	margin-left: 350px;
+	margin-top: 60px;
+}
+.glavnay button:hover {
+	background-color: #a0789f;
+}
+.glavnay button:active {
+	background-color: #fcfcfb;
+}
+
+.uslugi h3{
+    font-family: Gotham Pro Regular;
+    font-size: 50px;
+    color: #5b1454;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.uslugi h5:hover {
+	vertical-align: middle;
+    color: #a0789f;
+}
+.uslugi h5:active {
+	vertical-align: middle;
+    color: #fcfcfb;
+}
+
+.parikmaher  {
+	width: 600px;
+	height: 500px;
+	margin-left: 120px;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+}
+.parikmaher h5 {
+	font-family: Gotham Pro Regular;
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    top: 100px;
+}
+.parikmaher ul {
+    text-align: center;
+    position: relative;
+    top: -400px;
+}
+.parikmaher li {
+	font-family: Gotham Pro Light;
+	color: #fff;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.parikmaher li a {
+	text-decoration: none;
+	color: #fff;
+}
+.parikmaher button {
+	font-family: Gotham Pro Regular;
+	color: #fff;
+	background-color:#5b1454 ;
+	padding: 0 38px;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-radius: 8px;
+	box-sizing:border-box;
+	height: 48px;
+	cursor: pointer;
+	outline: none;
+	position: relative;
+    top: -373px;
+}
+.parikmaher button:hover {
+	background-color: #a0789f;
+}
+.parikmaher button:active {
+	background-color: #fcfcfb;
+}
+li a:hover {
+	vertical-align: middle;
+    color: #a0789f;
+}
+li a:active {
+	vertical-align: middle;
+    color: #fcfcfb;
+}
+.vizag  {
+	width: 600px;
+	height: 500px;
+	margin-left: 820px;
+    margin-top: -455px;
+    position: relative;
+    text-align: center;
+}
+.vizag h5 {
+	font-family: Gotham Pro Regular;
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    top: -100px;
+}
+.nogti  {
+	width: 600px;
+	height: 550px;
+	margin-left: 120px;
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+}
+.nogti h5 {
+	font-family: Gotham Pro Regular;
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    top: -100px;
+}
+.kosmetolog  {
+	width: 600px;
+	height: 500px;
+	margin-left: 827px;
+    margin-top: -550px;
+    position: relative;
+    text-align: center;
+}
+.kosmetolog h5 {
+	font-family: Gotham Pro Regular;
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    top: -100px;
+}
+.Akcii {
+    width: 1620px;
+	height: 600px;
+	margin-top: 150px;
+	margin-left: 0px;
+	background-image: url("akcii.jpg");
+
+}
+.Akcii h4:hover {
+	vertical-align: middle;
+    color: #a0789f;
+}
+.Akcii h4:active {
+	vertical-align: middle;
+    color: #fcfcfb;
+}
+.Akcii h2 {
+	font-family: Gotham Pro Regular;
+    font-size: 50px;
+    color: #fff;
+    position: relative;
+	left: 600px;
+	top: 50px;  
+}
+.Akcii p {
+	font-family: Gotham Pro Light;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+	left: 640px;
+	top: 60px;  
+}
+.Akcii h4{
+	font-family: Gotham Pro Regular;
+    font-size: 30px;
+    color: #fff;
+    position: relative;
+	top: 50px; 
+	margin-top: 90px;
+	text-align-last: center; 
+}
+.raboti {
+	width: 1620px;
+	height: 800px;
+	position: relative;
+	margin-top: 150px;
+	margin-left: 150px;
+}
+.raboti h2 {
+	font-family: Gotham Pro Regular;
+    font-size: 50px;
+    color: #5b1454;
+    position: relative;
+	left: 500px;
+	top: -80px; 
+}
+.raboti button {
+	font-family: Gotham Pro Regular;
+	color: #fff;
+	background-color:#5b1454;
+	padding: 0 48px;
+	text-transform: uppercase;
+	font-size: 20px;
+	border-radius: 8px;
+	box-sizing:border-box;
+	height: 58px;
+	cursor: pointer;
+	outline: none;
+	margin-left: 500px;
+	margin-top: 60px;	
+}
+.raboti button:hover {
+	background-color: #a0789f;
+}
+.raboti button:active {
+	background-color: #fcfcfb;
+}
+.osolone {
+	width: 1620px;
+	height: 600px;
+	margin-top: 950px;
+	background-image: url("Osalone.jpg");
+}
+.osolone h2{
+	font-family: Gotham Pro Light;
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+	top: 50px; 
+	left: -30px;
+	margin-top: 90px;
+	text-align-last: center; 
+}
+.osolone p {
+	font-family: Gotham Pro Light;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+	left: 1000px;
+	top: 180px;
+	padding-top: 10px;
+	line-height: 2em;  
+}	
+.Contact {
+	width: 1620px;
+	height: 900px;
+	background:  url(Contact.jpg)no-repeat center center;
+	margin-top: -50px;
+}
+.Partneri {
+    width: 1620px;
+	height: 300px;
+	position: relative;
+}
+.Partneri h2 {
+	font-family: Gotham Pro Regular;
+    font-size: 50px;
+    color: #5b1454;
+    position: relative;
+	top: 50px; 
+	left: 690px;
+}
+.Partneri a {
+    margin-left: 200px;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+}
+
+.podval {
+	width: 1620px;
+	height: 300px;
+	background-color: #5b1454;
+	position: relative;
+	top: 50px;
+
+}
+.podval .okompanii {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	left: 100;
+	top: 50px;
+	line-height: 4em;
+	float: left;
+    width: 30%;
+    margin-right: 2%;
+}
+.podval .polezno {
+	width: 700px;
+	height: 700px;
+	position: relative;
+	left: 600
+	line-height: 4em;
+	float: left;
+    width: 30%;
+    margin-right: 2%;
+}
+.podval .poisk {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	left: 1200
+	line-height: 4em;
+	float: left;
+    width: 30%;
+    margin-right: 2%;
+}
+.podval .okompanii h5 {
+	font-family: Gotham Pro Light;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    margin-left: 160px;
+   
+}
+.podval .okompanii a {
+	margin-left: 160px;
+    margin-top: 400px;
+    color: #fff;
+    font-family: Gotham Pro Light;
+    font-size: 20px;
+}
+.podval .polezno h5 {
+	font-family: Gotham Pro Light;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 110px;
+    float: left;
+    white-space:nowrap;
+    
+ }
+.podval .polezno a {
+    color: #fff;
+    font-family: Gotham Pro Light;
+    font-size: 20px;
+    float: left;
+    margin-top:30px;
+    margin-left: 110px;
+    margin-right: 300px;
+    line-height: 1.5em;
+    white-space:nowrap;
+    
+}
+.podval .poisk h5 {
+	font-family: Gotham Pro Light;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    margin-left: 200px;
+    margin-top: 70px;
+    float: left;
+    white-space:nowrap;
+}
+.podval .poisk input {
+	background-color: #5b1454;
+	border-radius: 12px;
+	border: 2px solid #fff;
+	height: 40px;
+	width: 200px;
+    font-family: Gotham Pro Light;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.podval .poisk button {
+	background-color: #5b1454;
+	border-radius: 12px;
+	border: 3px solid #fff;
+	height: 45px;
+	width: 60px;
+    font-family: Gotham Pro Regular;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: -63px;
+    
+}
+.podval .poisk button:hover {
+	background-color: #a0789f;
+}
+.podval .poisk button:active {
+	background-color: #fcfcfb;
+}
+.podval .anna p {
+    font-family: Gotham Pro Regular;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 3px;
+    top: -50px;
+    white-space:nowrap;
+    float:right;
+    margin-top: -240px;
+    margin-right: 10px;
+}
